@@ -28,8 +28,6 @@ function ProductsPage() {
   const [sortBy, setSortBy] =
     useState("newest");
 
-  const [setSelectedProduct] = useState(null);
-
   const [
     quantity,
     setQuantity,
