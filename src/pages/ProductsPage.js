@@ -28,10 +28,7 @@ function ProductsPage() {
   const [sortBy, setSortBy] =
     useState("newest");
 
-  const [
-    selectedProduct,
-    setSelectedProduct,
-  ] = useState(null);
+  const [setSelectedProduct] = useState(null);
 
   const [
     quantity,
